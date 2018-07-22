@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HC(kotlin)</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search for health news...</string>
+    <string name="eg_title">Mi Max 3 Releaed: Snapdragon 636, 5500 mAh Battery, Dual Camera Setup and Morel</string>
+    <string name="msg_generic_no_data">No Data!!!</string>
+    <string name="lbl_refresh">Pull to refresh</string>
+</resources>

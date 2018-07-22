@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:background="@drawable/rounded_search_border"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="@dimen/margin_medium"
+        android:drawableTint="@color/secondary_text"
+        android:layout_marginVertical="@dimen/margin_medium"
+        android:layout_marginHorizontal="@dimen/margin_medium_2"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/text_regular"/>
+<android.support.v4.view.ViewPager
+    android:id="@+id/vpTopImages"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="@dimen/margin_medium">
+
+        <TextView
+            style="@style/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subforums"
+            android:drawableTop="@drawable/options"/>
+
+        <TextView
+            style="@style/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General"
+            android:drawableTop="@drawable/up_arrow"/>
+
+        <TextView
+            style="@style/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018"
+            android:drawableTop="@drawable/charity"/>
+
+        <TextView
+            style="@style/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theme"
+            android:drawableTop="@drawable/paint_brush"/>
+    </LinearLayout>
+
+</LinearLayout>

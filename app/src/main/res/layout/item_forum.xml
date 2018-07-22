@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    android:layout_marginHorizontal="@dimen/margin_medium_2">
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eg_title"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_regular_2x" />
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_image"
+        android:src="@drawable/dummy_shop"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/margin_medium"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_medium">
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvInfoType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot"
+            android:background="@drawable/blue_rounded_border"
+            android:textColor="@color/deep_blue_sky"
+            android:textSize="@dimen/text_small"/>
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZZp123"
+            style="@style/statistics"/>
+
+        <TextView
+            android:id="@+id/tvViewers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7600"
+            android:drawableLeft="@drawable/focus"
+            android:drawablePadding="@dimen/margin_small"
+            style="@style/statistics"/>
+
+        <TextView
+            android:id="@+id/tvComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1313"
+            android:drawableLeft="@drawable/chat"
+            android:drawablePadding="@dimen/margin_small"
+            style="@style/statistics"/>
+
+        <TextView
+            android:id="@+id/tvLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2001"
+            android:drawableLeft="@drawable/thumb_up"
+            android:drawablePadding="@dimen/margin_small"
+            style="@style/statistics"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/divider"
+        android:layout_marginTop="@dimen/margin_medium_2"/>
+
+</LinearLayout>
